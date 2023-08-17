@@ -21,6 +21,11 @@ git clone -b luci  https://github.com/xiaorouji/openwrt-passwall.git  package/lu
 #helloworld package
 git clone -b master  https://github.com/fw876/helloworld.git  package/helloworld
 
+git clone https://github.com/NueXini/NueXini_Packages/tree/main/luci-app-netdata package/luci-app-netdata
+git clone https://github.com/NueXini/NueXini_Packages/tree/main/wrtbwmon package/wrtbwmon
+git clone https://github.com/NueXini/NueXini_Packages/tree/main/luci-app-wrtbwmon package/luci-app-wrtbwmon
+git clone https://github.com/NueXini/NueXini_Packages/tree/main/luci-app-arpbind package/luci-app-arpbind
+
 #update golang
 pushd feeds/packages/lang
 rm -rf golang && svn co https://github.com/openwrt/packages/trunk/lang/golang
