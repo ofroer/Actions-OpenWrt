@@ -12,5 +12,6 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
+echo 'src-git froer_Packages https://github.com/ofroer/ofroer_mod_Packages.git' >> feeds.conf.default
 sed -i '$a src-git package https://github.com/eorendel/openwrt-luci.git' feeds.conf.default
-echo 'src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git' >> feeds.conf.default
+
