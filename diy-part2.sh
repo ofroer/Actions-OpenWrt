@@ -19,7 +19,7 @@ git clone  https://github.com/xiaorouji/openwrt-passwall.git  package/passwall
 git clone -b luci  https://github.com/xiaorouji/openwrt-passwall.git  package/luci-app-passwall
 
 #helloworld package
-git clone -b master  https://github.com/fw876/helloworld.git  package/helloworld
+#git clone -b master  https://github.com/fw876/helloworld.git  package/helloworld
 
 #git clone https://github.com/NueXini/NueXini_Packages/tree/main/luci-app-netdata package/luci-app-netdata
 #git clone https://github.com/NueXini/NueXini_Packages/tree/main/wrtbwmon package/wrtbwmon
