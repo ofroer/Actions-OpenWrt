@@ -25,6 +25,8 @@ git clone https://github.com/NueXini/NueXini_Packages/tree/main/luci-app-netdata
 git clone https://github.com/NueXini/NueXini_Packages/tree/main/wrtbwmon package/wrtbwmon
 git clone https://github.com/NueXini/NueXini_Packages/tree/main/luci-app-wrtbwmon package/luci-app-wrtbwmon
 git clone https://github.com/NueXini/NueXini_Packages/tree/main/luci-app-arpbind package/luci-app-arpbind
+git clone https://github.com/NueXini/NueXini_Packages/tree/main/vlmcsd package/vlmcsd
+git clone https://github.com/NueXini/NueXini_Packages/tree/main/luci-app-vlmcsd package/luci-app-vlmcsd
 
 #update golang
 pushd feeds/packages/lang
